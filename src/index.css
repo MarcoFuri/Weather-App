@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1590746490933-7ac6676d9a9c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwc2NyZWVuc2F2ZXJ8ZW58MHx8MHx8fDA%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ebebeb;
+    min-height: 100vh;
+}
+
+.rounded-pill{
+    background-color: rgba(0, 0, 0, 0.477);
+}
+
+h5 {
+    color: #ebebeb;
+}
