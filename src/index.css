@@ -7,10 +7,24 @@ body {
     min-height: 100vh;
 }
 
-.rounded-pill{
-    background-color: rgba(0, 0, 0, 0.477);
+.weatherBox{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 44px;
 }
 
 h5 {
     color: #ebebeb;
+}
+
+.chartContainer {
+    width: 90vw;
+    height: 25vh;
+    min-height: 18rem;
+    min-width: auto;
+}
+
+@media (max-width: 420px){
+    .hourlyForecast {
+        padding-left: 50px
+    }
 }
